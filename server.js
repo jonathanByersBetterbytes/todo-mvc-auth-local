@@ -32,7 +32,7 @@ app.use(
     })
   )
   
-// Passport middleware
+// Passport middleware 
 app.use(passport.initialize())
 app.use(passport.session())
 
