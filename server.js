@@ -23,7 +23,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 app.use(logger('dev'))
 // Sessions
-app.use(
+app.use( 
     session({
       secret: 'keyboard cat',
       resave: false,
